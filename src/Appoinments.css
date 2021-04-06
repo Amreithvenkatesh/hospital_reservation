@@ -1,0 +1,21 @@
+.appoinments__header{
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+table{
+    border-collapse: collapse;
+    width: 80%;
+    border-radius: 1rem;
+    background:linear-gradient(to right bottom,rgba(255,255,255,0.7),rgba(255,255,255,0.3));
+    backdrop-filter: blur(1rem);
+    margin: 50px auto 50px auto;
+}
+td,th{
+    text-align: left;
+    padding: 10px;
+}
+tr:nth-child(even){
+    background-color: #dddddd;
+}

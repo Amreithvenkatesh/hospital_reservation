@@ -1,0 +1,60 @@
+.slot__header{
+    background-color: #def2f1;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.slot__body{
+    background-color: #def2f1;
+    width: 100%;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+form{
+    padding: 4%;
+    width: 100%;
+}
+.Slot__right__input{
+    width: 100%;
+}
+.Slot__right__input>select{
+    margin-top: 30px;
+    font-size: large;
+    width: 90%;
+    height: 70px;
+    background: transparent;
+    outline-width: 0;
+    color: black;
+    border: none;
+    padding: 5px;
+}
+.Slot__right__input>input:focus{
+    border-bottom: 3px solid black;
+}
+.Slot__right__input>input{
+    width: 90%;
+    font-size: large;
+    height: 50px;
+    background: transparent;
+    outline-width: 0;
+    color: black;
+    border: none;
+    padding: 5px;
+}
+.datepicker{
+    margin-top:30px;
+    font-size: large;
+    height: 50px;
+    background: transparent;
+    outline-width: 0;
+    color: black;
+    border: none;
+    padding: 5px;
+}
+.slot__body>form>button{
+    margin: 30px;
+    border: 2px solid black;
+}
